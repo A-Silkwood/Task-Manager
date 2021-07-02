@@ -1,0 +1,23 @@
+body {
+    background-color: #303030;
+}
+
+.App {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #383838;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App-header {
+    width: 584px;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+}
