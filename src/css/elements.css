@@ -1,0 +1,21 @@
+.lbl-hide {
+    display: none;
+}
+
+.lbl-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+select {
+    border-width: 0px;
+    border-radius: 4px;
+}
+
+button {
+    border-width: 0px;
+    border-radius: 4px;
+
+    font-weight: bold;
+}

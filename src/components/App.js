@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import '../css/elements.css'
 import '../css/App.css';
 
 import Manager from './Manager.js';
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
       <h1 className="App-header">Task Manager</h1>
       <Manager onClick={ toggleCreateForm } isClicked={ showCreateForm } />
-      {showCreateForm && <Form/>}
+      {showCreateForm && <Form onClose={ toggleCreateForm }/>}
       <Legend/>
       <TaskList/>
     </div>
