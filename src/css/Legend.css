@@ -1,0 +1,22 @@
+.Legend {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.Legend-key-cont {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.Legend-key {
+    width: 25px;
+    height: 25px;
+}
+
+.Legend-key > label {
+    padding-left: 30px;
+    padding-top: 4px;
+    display: inline-block;
+}

@@ -1,3 +1,8 @@
+.lbl {
+    font-size: 13px;
+    color: white;
+}
+
 .lbl-hide {
     display: none;
 }
